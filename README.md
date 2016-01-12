@@ -1,5 +1,5 @@
 # TelCrap
-Cut and crop Telpark invoice and generating another invoice with some invoices to avoid kill some trees when you print the invoice for your company
+Cut and crop Telpark invoice and generating another one with some of them mixed to avoid kill some trees when you print the invoice for your company
 
 This utility is useful for situations with your company when you need to provide invoices to RRHH/Financial department and
 you don't have much free time...just for lazies, like me :-)
