@@ -30,7 +30,7 @@ def concatenate_files(_path):
                         blankimage.composite(img2, 0, h)
                         blankimage.save(filename=file1)
             os.remove(file2)
-        os.rename(file_list[_file], "./dest/new_mix_" + str(_file))
+        os.rename(file_list[_file], "./dest/new_mix_" + str(_file) + ".pdf")
 
 crop_source_files("./source/*.pdf")
 concatenate_files("./dest/*.pdf")
