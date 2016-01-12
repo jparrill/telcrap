@@ -7,8 +7,8 @@ you don't have much free time...just for lazies, like me :-)
 ## How to¿?
 You must to install a library in you system called:
 
-**Fedora:** ``` yum install -y ImageMagick```
-**OSX:** ``` brew install imagemagick```
+- **Fedora:** ``` yum install -y ImageMagick```
+- **OSX:** ``` brew install imagemagick```
 
 And now for your virtualenv (yeah, use virtualenv!):
 
@@ -17,8 +17,8 @@ pip install wand
 ```
 
 ## Folders
-**dest:** Just download here your raw invoices from the website
-**source:** Here will be generated your mixes
+- **dest:** Just download here your raw invoices from the website
+- **source:** Here will be generated your mixes
 
 ## Execution
 Now execute the script:
