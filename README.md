@@ -25,7 +25,7 @@ Now execute the script:
 
 Input:
 ```
-python telpark_crop.p
+python telpark_crop.py
 ```
 
 Output:
