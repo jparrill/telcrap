@@ -8,7 +8,6 @@ you don't have much free time...just for lazies, like me :-)
 You must to install a library in you system called:
 
 - **Fedora:** ``` yum install -y ImageMagick```
-- **OSX:** ``` brew install imagemagick```
 
 And now for your virtualenv (yeah, use virtualenv!):
 

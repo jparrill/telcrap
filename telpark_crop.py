@@ -9,7 +9,7 @@ def crop_source_files (_path):
     print "Cropping files..."
     for _file in glob.glob(_path):
         with Image(filename=_file, resolution=200) as img:
-             img.compression_quality = 99
+             #img.compression_quality = 99
              img.crop(170, 100, width=1320, height=900)
              img.save(filename="./dest/" + get_file_name(_file))
 
@@ -32,5 +32,14 @@ def concatenate_files(_path):
             os.remove(file2)
         os.rename(file_list[_file], "./dest/new_mix_" + str(_file) + ".pdf")
 
+def create_output_pdf(_path):
+    print "Creating delivery file..."
+    file_list = glob.glob(_path)
+    for _file in file_list:
+        print file_list.index(_file)
+
+
+
 crop_source_files("./source/*.pdf")
 concatenate_files("./dest/*.pdf")
+create_output_pdf("./dest/*.pdf")
