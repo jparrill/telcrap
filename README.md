@@ -9,15 +9,16 @@ You must to install a library in you system called:
 
 - **Fedora:** ``` yum install -y ImageMagick```
 
-And now for your virtualenv (yeah, use virtualenv!):
+And now for your virtualenv (yeah, use a virtualenv!):
 
 ```
-pip install wand
+pip install -r requirements.txt
 ```
 
 ## Folders
-- **dest:** Just download here your raw invoices from the website
-- **source:** Here will be generated your mixes
+- **source:** Just download here your raw invoices from the website
+- **final.pdf:** The resultant pdf with all invoices concatenated
+- **tmp:** during the execution this folder will be created to operate with temporary files, but will be erased at the end of the execution
 
 ## Execution
 Now execute the script:
@@ -38,5 +39,5 @@ Concatenating files...
 	 history_payment (6).pdf + history_payment (2).pdf
 	 history_payment (8).pdf + history_payment (1).pdf
 	 history_payment (7).pdf + history_payment (3).pdf
-
+Creating release pdf...
 ```
