@@ -58,6 +58,8 @@ target/
 
 # Virtualenv
 .virtualenv
+.vagrant
+
 
 # pdf
 *.pdf
