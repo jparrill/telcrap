@@ -9,5 +9,3 @@ RUN dnf clean all && \
 RUN pip install -r /opt/requirements.txt
 
 WORKDIR '/opt'
-
-ENTRYPOINT ['python telcrap.py']
